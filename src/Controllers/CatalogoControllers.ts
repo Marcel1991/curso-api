@@ -30,7 +30,8 @@ export class CatalogoControllers {
 
     @Get('')
     getIndex() {
-        return 'Working!!.'
+        //return 'Working!!.'
+        return [...this.listItems]
     }
 
     @Get('list/')
